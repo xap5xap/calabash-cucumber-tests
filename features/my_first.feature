@@ -1,5 +1,5 @@
-Feature: Login feature
+Feature: Intro feature
 
-  Scenario: As a valid user I can log into my app
-    When I press "Login"
-    Then I see "Welcome to coolest app ever"
+  Scenario: As a user I can go directly to homescreen
+    When I press "SKIP FOR NOW"
+    Then I should be redirected to the "Schedule" screen
